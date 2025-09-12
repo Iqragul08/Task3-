@@ -7,21 +7,51 @@
     <title>Document</title>
     <style>
         * {
+<<<<<<< HEAD
             font-family: Arial, Helvetica, sans-serif;
             box-sizing: border-box;
+=======
+>>>>>>> f0dea57 (Second commit: added task3(screen2) files)
             margin: 0%;
             padding: 0%;
         }
 
+<<<<<<< HEAD
         .box {
             width: 100%;
             max-width: 1400;
             height: auto;
             background-color: rgb(13, 59, 44);
+=======
+        /*header-1st part*/
+        .header {
+            margin: 0%;
+            padding: 0%;
+            margin-top: 2px;
+            margin-left: 2px;
+            background-color: #8b2d2d;
+            border: 2px solid #8b2d2d;
+            justify-items: center;
+            font-family: Arial, sans-serif;
+
+        }
+
+        .header::after {
+            position: absolute;
+            content: " ";
+            bottom: 0;
+            right: 0%;
+            width: 10%;
+            height: 100px;
+            background: white;
+            transform: translate(0, 210px);
+            clip-path: polygon(100% 0, 100% 100%, 0 100%);
+>>>>>>> f0dea57 (Second commit: added task3(screen2) files)
 
         }
 
         .logo {
+<<<<<<< HEAD
             margin-left: 10px;
         }
 
@@ -220,11 +250,127 @@
 
         .rightbox img {
             float: inline-end;
+=======
+            margin-right: 65%;
+            margin-top: 30px;
+            margin-bottom: 1%;
+        }
+
+        .text h1 {
+            font-size: 90px;
+            font-weight: 900;
+            color: rgb(243, 238, 238);
+            letter-spacing: -3px;
+            margin-bottom: -20px;
+            padding: 0%;
+        }
+
+        .text h2 {
+            font-size: 47px;
+            margin-top: 0px;
+            margin-bottom: 25px;
+            padding: 0%;
+        }
+
+        .text p {
+            font-size: 27px;
+            color: rgb(243, 238, 238);
+            margin-bottom: 30px;
+
+        }
+
+        .p2 {
+            margin-bottom: 15%;
+        }
+
+        /*main part*/
+
+        .main {
+            margin-top: 20px;
+
+        }
+
+        .club-heading {
+            display: flex;
+            margin-left: 10%;
+            margin-top: 5%;
+
+        }
+
+        .club-heading h3 {
+            font-size: 50px;
+            font-family: Arial, sans-serif;
+            font-weight: 800;
+            letter-spacing: -2px;
+
+        }
+
+        .club-heading img {
+            margin-top: 18px;
+            margin-right: 8px;
+        }
+
+        .club-items {
+            display: flex;
+            justify-content: center;
+            margin-left: 45px;
+
+        }
+
+        .club-items img {
+            width: 60%;
+        }
+
+        .red {
+            color: red;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            margin-left: 10px;
+        }
+
+        .black {
+            color: black;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            margin-left: 35px;
+        }
+
+        /*footer part*/
+        .footer {
+            background-color: #8b2d2d;
+            border: 2px solid #8b2d2d;
+            justify-items: center;
+            font-family: Arial, sans-serif;
+            margin-top: 10%;
+            margin-left: 2px;
+        }
+
+        .footer p {
+            font-size: 60px;
+            font-weight: 700;
+            color: whitesmoke;
+            padding-top: 5%;
+            padding-bottom: 5%;
+        }
+
+        .footer::after {
+            position: absolute;
+            content: " ";
+            bottom: 0;
+            right: 0%;
+            width: 10%;
+            height: 100px;
+            background: white;
+            transform: translate(0, 2252px);
+            clip-path: polygon(100% 0, 100% 100%, 0 100%);
+
+>>>>>>> f0dea57 (Second commit: added task3(screen2) files)
         }
     </style>
 </head>
 
 <body>
+<<<<<<< HEAD
     <section class="Box">
         <div class="logo">
             <img src="logo.png" width="90px" alt="logo">
@@ -304,6 +450,338 @@
         </div>
         </div>
 
+=======
+    <!--main container-->
+    <section class="container">
+        <!--header part-->
+        <div class="header">
+            <div class="logo">
+                <img src="logo.png" width="75%" alt="Logo">
+            </div>
+            <div class="text">
+                <h1>RED CARD 2018</h1>
+                <h2>China Digital Football Awards</h2>
+                <p> The Red Card is globally recognised as the leading annual report to assess the most <br>influential
+                    European football clubs, leagues and players online in China. Now in its 7th <br> year, Red Card
+                    2018 has
+                    been reimagined to include 5 additional awards to recognise <br>the many areas of digital
+                    performance in
+                    China, thereby taking the Red Card report to<br> a whole new level. Due to the nature and variety of
+                    these
+                    new categories, the winners<br> will be chosen by a panel of 6 industry experts, rather than by the
+                    traditional metrics<br> used to assess the three headline awards.</p>
+                <div class="p2">
+                    <p> This report aims to educate teams and organisations on how to improve their China<br> digital
+                        strategy, what
+                        today's Chinese fan wants and what works online in China.</p>
+                </div>
+
+            </div>
+        </div>
+        <!--mid part-->
+        <div class="main">
+            <!--1st row of items-->
+            <div class="club-heading">
+                <img src="icon_awards.png" width="50px" height="38px" alt="red icon">
+                <h3> BEST CLUBS</h3>
+            </div>
+            <div class="club-items">
+                <!--item  1-->
+                <div class="item">
+                    <img src="1.png" alt="image">
+                    <div class="red">
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="black">
+                        <p>Lorem </p>
+                    </div>
+                </div>
+                <!--item  2-->
+                <div class="item">
+                    <img src="1.png" alt="image">
+                    <div class="red">
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="black">
+                        <p>Lorem </p>
+                    </div>
+                </div>
+                <!--item  3-->
+                <div class="item">
+                    <img src="1.png" alt="image">
+                    <div class="red">
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="black">
+                        <p>Lorem </p>
+                    </div>
+                </div>
+                <!--item  4-->
+                <div class="item">
+                    <img src="1.png" alt="image">
+                    <div class="red">
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="black">
+                        <p>Lorem </p>
+                    </div>
+                </div>
+                <!--item  5-->
+                <div class="item">
+                    <img src="1.png" alt="image">
+                    <div class="red">
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="black">
+                        <p>Lorem </p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!--2nd row of items-->
+            <div class="club-heading">
+                <img src="icon_awards.png" width="50px" height="38px" alt="red icon">
+                <h3> BEST CLUBS</h3>
+            </div>
+            <div class="club-items">
+                <!--item  1-->
+                <div class="item">
+                    <img src="1.png" alt="image">
+                    <div class="red">
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="black">
+                        <p>Lorem </p>
+                    </div>
+                </div>
+                <!--item  2-->
+                <div class="item">
+                    <img src="1.png" alt="image">
+                    <div class="red">
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="black">
+                        <p>Lorem </p>
+                    </div>
+                </div>
+                <!--item  3-->
+                <div class="item">
+                    <img src="1.png" alt="image">
+                    <div class="red">
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="black">
+                        <p>Lorem </p>
+                    </div>
+                </div>
+                <!--item  4-->
+                <div class="item">
+                    <img src="1.png" alt="image">
+                    <div class="red">
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="black">
+                        <p>Lorem </p>
+                    </div>
+                </div>
+                <!--item  5-->
+                <div class="item">
+                    <img src="1.png" alt="image">
+                    <div class="red">
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="black">
+                        <p>Lorem </p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!--3rd row of items-->
+            <div class="club-heading">
+                <img src="icon_awards.png" width="50px" height="38px" alt="red icon">
+                <h3> BEST CLUBS</h3>
+            </div>
+            <div class="club-items">
+                <!--item  1-->
+                <div class="item">
+                    <img src="1.png" alt="image">
+                    <div class="red">
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="black">
+                        <p>Lorem </p>
+                    </div>
+                </div>
+                <!--item  2-->
+                <div class="item">
+                    <img src="1.png" alt="image">
+                    <div class="red">
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="black">
+                        <p>Lorem </p>
+                    </div>
+                </div>
+                <!--item  3-->
+                <div class="item">
+                    <img src="1.png" alt="image">
+                    <div class="red">
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="black">
+                        <p>Lorem </p>
+                    </div>
+                </div>
+                <!--item  4-->
+                <div class="item">
+                    <img src="1.png" alt="image">
+                    <div class="red">
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="black">
+                        <p>Lorem </p>
+                    </div>
+                </div>
+                <!--item  5-->
+                <div class="item">
+                    <img src="1.png" alt="image">
+                    <div class="red">
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="black">
+                        <p>Lorem </p>
+                    </div>
+                </div>
+
+            </div>
+            <!--4th row of items-->
+            <div class="club-heading">
+                <img src="icon_awards.png" width="50px" height="38px" alt="red icon">
+                <h3> BEST CLUBS</h3>
+            </div>
+            <div class="club-items">
+                <!--item  1-->
+                <div class="item">
+                    <img src="1.png" alt="image">
+                    <div class="red">
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="black">
+                        <p>Lorem </p>
+                    </div>
+                </div>
+                <!--item  2-->
+                <div class="item">
+                    <img src="1.png" alt="image">
+                    <div class="red">
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="black">
+                        <p>Lorem </p>
+                    </div>
+                </div>
+                <!--item  3-->
+                <div class="item">
+                    <img src="1.png" alt="image">
+                    <div class="red">
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="black">
+                        <p>Lorem </p>
+                    </div>
+                </div>
+                <!--item  4-->
+                <div class="item">
+                    <img src="1.png" alt="image">
+                    <div class="red">
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="black">
+                        <p>Lorem </p>
+                    </div>
+                </div>
+                <!--item  5-->
+                <div class="item">
+                    <img src="1.png" alt="image">
+                    <div class="red">
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="black">
+                        <p>Lorem </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--5th row of items-->
+            <div class="club-heading">
+                <img src="icon_awards.png" width="50px" height="38px" alt="red icon">
+                <h3> BEST CLUBS</h3>
+            </div>
+            <div class="club-items">
+                <!--item  1-->
+                <div class="item">
+                    <img src="1.png" alt="image">
+                    <div class="red">
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="black">
+                        <p>Lorem </p>
+                    </div>
+                </div>
+                <!--item  2-->
+                <div class="item">
+                    <img src="1.png" alt="image">
+                    <div class="red">
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="black">
+                        <p>Lorem </p>
+                    </div>
+                </div>
+                <!--item  3-->
+                <div class="item">
+                    <img src="1.png" alt="image">
+                    <div class="red">
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="black">
+                        <p>Lorem </p>
+                    </div>
+                </div>
+                <!--item  4-->
+                <div class="item">
+                    <img src="1.png" alt="image">
+                    <div class="red">
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="black">
+                        <p>Lorem </p>
+                    </div>
+                </div>
+                <!--item  5-->
+                <div class="item">
+                    <img src="1.png" alt="image">
+                    <div class="red">
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="black">
+                        <p>Lorem </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--end part footer-->
+        <div class="footer">
+            <p>RED CARD 2019 WINNERS <br> AND REPORT TO BE LAUNCHED <br> ON 24TH JANUARY 2019.</p>
+
+        </div>
+>>>>>>> f0dea57 (Second commit: added task3(screen2) files)
     </section>
 </body>
 
