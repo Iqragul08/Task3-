@@ -13,12 +13,11 @@
             padding: 0%;
         }
 
-        .box {
+        .container {
             width: 100%;
             max-width: 1400;
             height: auto;
-            background-color: rgb(13, 59, 44);
-
+            background-color: rgb(255, 255, 255);
         }
 
         .logo {
@@ -95,7 +94,6 @@
             color: #8d8787;
         }
 
-
         /* right Section */
         .rightbox {
             justify-items: center;
@@ -149,17 +147,18 @@
             margin-bottom: 15px;
         }
 
-        .checkbox {
+        .box2 {
             display: flex;
-
+            gap: 20%;
         }
-         input[type="checkbox"] {
+
+        input[type="checkbox"] {
             accent-color: white;
-         }
+        }
 
         /*buttons right side*/
         .btn1 {
-            margin-left: 30%;
+            margin-left: 12%;
         }
 
         .btn1 button {
@@ -175,7 +174,7 @@
         }
 
         .btn2 {
-            margin-left: 25%;
+            margin-left: 7%;
         }
 
         .btn2 button {
@@ -191,7 +190,7 @@
         }
 
         .btn3 {
-            margin-left: 20%;
+            margin-left: 3%;
         }
 
         .btn3 button {
@@ -207,7 +206,7 @@
         }
 
         .btn4 {
-            margin-left: 20%;
+            margin-left: 3%;
         }
 
         .btn4 button {
@@ -223,7 +222,7 @@
         }
 
         .btn5 {
-            margin-left: 21%;
+            margin-left: 4%;
         }
 
         .btn5 button {
@@ -251,9 +250,6 @@
             padding: 14px;
             border: none;
             cursor: pointer;
-
-
-
         }
 
         .sub-btn:hover {
@@ -267,7 +263,7 @@
 </head>
 
 <body>
-    <section class="Box">
+    <section class="container">
         <div class="logo">
             <img src="logo.png" width="90px" alt="logo">
         </div>
@@ -280,12 +276,10 @@
                     used for any purpose <br> other than judging Red Card 2018 winners.
                     <button>+</button>
                 </p>
-
                 <p><strong>Applications will close on the <br> 15th December 2017 <button>+</button> </strong></p>
-
-
-
             </div>
+
+
 
             <div class="rightbox">
                 <form action="Enrollment">
@@ -293,57 +287,93 @@
                     <input type="email" placeholder="Email Address" required>
                     <input type="text" placeholder="Organisation" required>
 
+
                     <label>Which Award</label>
                     <p>(please tick and provide detail for all of the awards you would like to be nominated for)</p>
-                    <div class="award-option">
-                        <div class="checkbox">
-                            <input type="checkbox" id="check1"> Best Livestream
-                            <div class="btn1"> <button>+</button></div>
-                        </div>
 
-                        <textarea placeholder="Description & Results (max. 150 words)"></textarea>
-                    </div>
+                    <!--first option-->
                     <div class="award-option">
-                        <div class="checkbox">
-                            <input type="checkbox"> Best Tour Campaign
-                            <div class="btn2"> <button>+</button></div>
+                        <div class="box2">
+                            <div class="checkbox">
+                                <input type="checkbox" id="check1"> Best Livestream
+                            </div>
+                            <div class="btn1">
+                                <button>+</button>
+                            </div>
                         </div>
-                        <textarea placeholder="Description & Results (max. 150 words)"></textarea>
-                    </div>
-                    <div class="award-option">
-                        <div class="checkbox">
-                            <input type="checkbox"> Best Sponsor Activation
-                            <div class="btn3"> <button>+</button></div>
+                        <div class="text-box">
+                            <textarea placeholder="Description & Results (max. 150 words)"></textarea>
                         </div>
-                        <textarea placeholder="Description & Results (max. 150 words)"></textarea>
                     </div>
 
+                    <!--2nd option-->
                     <div class="award-option">
-                        <div class="checkbox">
-                            <input type="checkbox"> Best Use of Technology
-                            <div class="btn4"> <button>+</button></div>
+                        <div class="box2">
+                            <div class="checkbox">
+                                <input type="checkbox" id="check1"> Best Tour Campaign
+                            </div>
+                            <div class="btn2">
+                                <button>+</button>
+                            </div>
                         </div>
-                        <textarea placeholder="Description & Results (max. 150 words)"></textarea>
+                        <div class="text-box">
+                            <textarea placeholder="Description & Results (max. 150 words)"></textarea>
+                        </div>
                     </div>
 
+                    <!--3rd option-->
                     <div class="award-option">
-                        <div class="checkbox">
-                            <input type="checkbox"> Best Online Campaign
-                            <div class="btn5"> <button>+</button></div>
+                        <div class="box2">
+                            <div class="checkbox">
+                                <input type="checkbox" id="check1"> Best Sponsor Activation
+                            </div>
+                            <div class="btn3">
+                                <button>+</button>
+                            </div>
                         </div>
-                        <textarea placeholder="Description & Results (max. 150 words)"></textarea>
+                        <div class="text-box">
+                            <textarea placeholder="Description & Results (max. 150 words)"></textarea>
+                        </div>
                     </div>
+
+                    <!--4th option-->
+                    <div class="award-option">
+                        <div class="box2">
+                            <div class="checkbox">
+                                <input type="checkbox" id="check1"> Best Use of Technology
+                            </div>
+                            <div class="btn4">
+                                <button>+</button>
+                            </div>
+                        </div>
+                        <div class="text-box">
+                            <textarea placeholder="Description & Results (max. 150 words)"></textarea>
+                        </div>
+                    </div>
+
+                    <!--5th option-->
+                    <div class="award-option">
+                        <div class="box2">
+                            <div class="checkbox">
+                                <input type="checkbox" id="check1"> Best Online Campaign
+                            </div>
+                            <div class="btn5">
+                                <button>+</button>
+                            </div>
+                        </div>
+                        <div class="text-box">
+                            <textarea placeholder="Description & Results (max. 150 words)"></textarea>
+                        </div>
+                    </div>
+
                     <button type="submit" class="sub-btn">✔ Submission Successful</button>
+
+
                 </form>
                 <img src="pngimg.com - triangle_PNG68.png" width="100px" alt="img">
+
+
             </div>
-
-
-
-        </div>
-
-
-        </div>
         </div>
 
     </section>
