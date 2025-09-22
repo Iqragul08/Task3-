@@ -94,6 +94,8 @@
             color: #8d8787;
         }
 
+
+
         /* right Section */
         .rightbox {
             justify-items: center;
@@ -132,6 +134,8 @@
         }
 
         .award-option {
+            width: 100%;
+            display: grid;
             margin-top: 10px;
             color: white;
         }
@@ -147,94 +151,32 @@
             margin-bottom: 15px;
         }
 
-        .box2 {
+        .check-btns {
+            width: 100%;
             display: flex;
-            gap: 20%;
+        }
+
+        .checkbox {
+            width: 50%;
         }
 
         input[type="checkbox"] {
-            accent-color: white;
+            accent-color: #8b2d2d;
+            border: 1px solid white;
         }
 
-        /*buttons right side*/
         .btn1 {
-            margin-left: 12%;
+            width: 50%;
         }
 
         .btn1 button {
-            margin: 0px;
-            padding: 0px;
-            height: 15px;
-            width: 15px;
-            font-size: 20px;
-            display: flex;
-            align-items: center;
-            align-content: center;
-            color: #8d8787;
-        }
-
-        .btn2 {
-            margin-left: 7%;
-        }
-
-        .btn2 button {
-            margin: 0px;
-            padding: 0px;
-            height: 15px;
-            width: 15px;
-            font-size: 20px;
-            display: flex;
-            align-items: center;
-            align-content: center;
-            color: #8d8787;
-        }
-
-        .btn3 {
-            margin-left: 3%;
-        }
-
-        .btn3 button {
-            margin: 0px;
-            padding: 0px;
-            height: 15px;
-            width: 15px;
-            font-size: 20px;
-            display: flex;
-            align-items: center;
-            align-content: center;
-            color: #8d8787;
-        }
-
-        .btn4 {
-            margin-left: 3%;
-        }
-
-        .btn4 button {
-            margin: 0px;
-            padding: 0px;
-            height: 15px;
-            width: 15px;
-            font-size: 20px;
-            display: flex;
-            align-items: center;
-            align-content: center;
-            color: #8d8787;
-        }
-
-        .btn5 {
-            margin-left: 4%;
-        }
-
-        .btn5 button {
-            margin: 0px;
-            padding: 0px;
-            height: 15px;
-            width: 15px;
-            font-size: 20px;
-            display: flex;
-            align-items: center;
-            align-content: center;
-            color: #8d8787;
+            height: 14px;
+            width: 14px;
+            font-size: 19px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+            color: #a8a1a1;
         }
 
         textarea {
@@ -279,8 +221,6 @@
                 <p><strong>Applications will close on the <br> 15th December 2017 <button>+</button> </strong></p>
             </div>
 
-
-
             <div class="rightbox">
                 <form action="Enrollment">
                     <input type="text" placeholder="Name" required>
@@ -291,11 +231,14 @@
                     <label>Which Award</label>
                     <p>(please tick and provide detail for all of the awards you would like to be nominated for)</p>
 
+
+
+
                     <!--first option-->
                     <div class="award-option">
-                        <div class="box2">
+                        <div class="check-btns">
                             <div class="checkbox">
-                                <input type="checkbox" id="check1"><span>Best Livestream</span> 
+                                <input type="checkbox" id="check1"><span>Best Livestream</span>
                             </div>
                             <div class="btn1">
                                 <button>+</button>
@@ -306,13 +249,14 @@
                         </div>
                     </div>
 
+
                     <!--2nd option-->
                     <div class="award-option">
-                        <div class="box2">
+                        <div class="check-btns">
                             <div class="checkbox">
-                                <input type="checkbox" id="check1"><span>Best Tour Campaign</span> 
+                                <input type="checkbox" id="check1"><span>Best Tour Campaign</span>
                             </div>
-                            <div class="btn2">
+                            <div class="btn1">
                                 <button>+</button>
                             </div>
                         </div>
@@ -320,14 +264,16 @@
                             <textarea placeholder="Description & Results (max. 150 words)"></textarea>
                         </div>
                     </div>
+
+
 
                     <!--3rd option-->
                     <div class="award-option">
-                        <div class="box2">
+                        <div class="check-btns">
                             <div class="checkbox">
-                                <input type="checkbox" id="check1"><span>Best Sponsor Activation</span> 
+                                <input type="checkbox" id="check1"><span>Best Sponsor Activation</span>
                             </div>
-                            <div class="btn3">
+                            <div class="btn1">
                                 <button>+</button>
                             </div>
                         </div>
@@ -335,14 +281,15 @@
                             <textarea placeholder="Description & Results (max. 150 words)"></textarea>
                         </div>
                     </div>
+
 
                     <!--4th option-->
                     <div class="award-option">
-                        <div class="box2">
+                        <div class="check-btns">
                             <div class="checkbox">
-                                <input type="checkbox" id="check1"><span> Best Use of Technology</span>
+                                <input type="checkbox" id="check1"><span>Best Use of Technology</span>
                             </div>
-                            <div class="btn4">
+                            <div class="btn1">
                                 <button>+</button>
                             </div>
                         </div>
@@ -351,13 +298,14 @@
                         </div>
                     </div>
 
+
                     <!--5th option-->
                     <div class="award-option">
-                        <div class="box2">
+                        <div class="check-btns">
                             <div class="checkbox">
-                                <input type="checkbox" id="check1"><span>Best Online Campaign</span> 
+                                <input type="checkbox" id="check1"><span>Best Online Campaign</span>
                             </div>
-                            <div class="btn5">
+                            <div class="btn1">
                                 <button>+</button>
                             </div>
                         </div>
@@ -368,14 +316,12 @@
 
                     <button type="submit" class="sub-btn">✔ Submission Successful</button>
 
-
                 </form>
+
+
                 <img src="pngimg.com - triangle_PNG68.png" width="100px" alt="img">
-
-
             </div>
         </div>
-
     </section>
 </body>
 
